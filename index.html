@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nexus Build Architects | Luxury Architecture &amp; Construction</title>
+<meta name="description" content="Nexus Build Architects - Luxury architecture, construction and engineering firm by Ali Hassan. We design the future through iconic structures." />
+<meta property="og:title" content="Nexus Build Architects" />
+<meta property="og:description" content="Creating iconic structures through architecture, engineering, and innovation." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark">
+
+<!-- Loading Screen -->
+<div class="loader" id="loader">
+  <div class="loader-content">
+    <span class="loader-kicker">Nexus Build</span>
+    <h1 class="loader-title">ARCHITECTS</h1>
+    <div class="loader-line"></div>
+  </div>
+</div>
+
+<!-- Scroll Progress -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="logo">NEXUS <span>BUILD</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#expertise" class="nav-link">Expertise</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#process" class="nav-link">Process</a>
+      <a href="#team" class="nav-link">Team</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fa-solid fa-sun"></i>
+      </button>
+      <a href="#contact" class="btn btn-outline-gold nav-cta">Schedule Consultation</a>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#expertise" class="nav-link">Expertise</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#process" class="nav-link">Process</a>
+    <a href="#team" class="nav-link">Team</a>
+    <a href="#contact" class="nav-link">Contact</a>
+    <button class="theme-toggle-mobile" id="themeToggleMobile">
+      <i class="fa-solid fa-sun"></i> <span>Light Mode</span>
+    </button>
+    <a href="#contact" class="btn btn-outline-gold">Schedule Consultation</a>
+  </div>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <div class="hero-bg" id="heroBg">
+    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2000&auto=format&fit=crop" alt="Modern skyscraper architecture at night" />
+    <div class="hero-overlay-vertical"></div>
+    <div class="hero-overlay-horizontal"></div>
+  </div>
+
+  <div class="hero-content">
+    <span class="reveal kicker">Nexus Build Architects</span>
+    <h1 class="reveal hero-title">WE DESIGN<br><span class="gold">THE FUTURE.</span></h1>
+    <p class="reveal hero-sub">Creating iconic structures through architecture, engineering, and innovation.</p>
+    <div class="reveal hero-buttons">
+      <a href="#projects" class="btn btn-gold">Explore Projects <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#contact" class="btn btn-outline">Schedule Consultation</a>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section section-dark">
+  <div class="container about-grid">
+    <div>
+      <div class="section-heading">
+        <span class="kicker">About Nexus Build</span>
+        <h2>Architecture Beyond Expectations</h2>
+      </div>
+      <p class="lead-text">
+        Nexus Build Architects is a visionary architecture and construction firm specializing in luxury
+        residential, commercial, and urban development projects. Led by Ali Hassan, our studio merges
+        cutting-edge design with engineering precision to create structures that define skylines and
+        elevate the human experience.
+      </p>
+
+      <div class="stats-grid">
+        <div class="stat" data-target="500" data-suffix="+">
+          <div class="stat-number"><span class="count">0</span><span class="suffix">+</span></div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat" data-target="20" data-suffix="+">
+          <div class="stat-number"><span class="count">0</span><span class="suffix">+</span></div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat" data-target="100" data-suffix="+">
+          <div class="stat-number"><span class="count">0</span><span class="suffix">+</span></div>
+          <div class="stat-label">Experts</div>
+        </div>
+        <div class="stat" data-target="500" data-suffix="M+" data-prefix="$">
+          <div class="stat-number"><span class="prefix">$</span><span class="count">0</span><span class="suffix">M+</span></div>
+          <div class="stat-label">Project Value</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-image reveal-scale">
+      <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=1400&auto=format&fit=crop" alt="Luxury architecture exterior" />
+      <div class="about-image-border"></div>
+      <div class="about-image-caption">Crafted by precision. Defined by vision.</div>
+    </div>
+  </div>
+</section>
+
+<!-- Expertise -->
+<section id="expertise" class="section section-black">
+  <div class="container">
+    <div class="section-heading center">
+      <span class="kicker">What We Do</span>
+      <h2>Our Expertise</h2>
+    </div>
+
+    <div class="expertise-grid">
+      <div class="expertise-card reveal">
+        <span class="expertise-num">01</span>
+        <h3>Architecture Design</h3>
+        <p>Bespoke design language crafted around light, form and material honesty.</p>
+      </div>
+      <div class="expertise-card reveal">
+        <span class="expertise-num">02</span>
+        <h3>Luxury Residential Projects</h3>
+        <p>Private estates and residences engineered for comfort and prestige.</p>
+      </div>
+      <div class="expertise-card reveal">
+        <span class="expertise-num">03</span>
+        <h3>Commercial Developments</h3>
+        <p>Workplaces and retail destinations that elevate brand experience.</p>
+      </div>
+      <div class="expertise-card reveal">
+        <span class="expertise-num">04</span>
+        <h3>Urban Planning</h3>
+        <p>Masterplans that balance density, mobility and human scale.</p>
+      </div>
+      <div class="expertise-card reveal">
+        <span class="expertise-num">05</span>
+        <h3>Interior Architecture</h3>
+        <p>Seamless interiors where structure and finish speak one language.</p>
+      </div>
+      <div class="expertise-card reveal">
+        <span class="expertise-num">06</span>
+        <h3>Structural Engineering</h3>
+        <p>Precision engineering enabling bold architectural ambition.</p>
+      </div>
+      <div class="expertise-card reveal">
+        <span class="expertise-num">07</span>
+        <h3>Project Management</h3>
+        <p>End-to-end delivery with absolute control over time and cost.</p>
+      </div>
+      <div class="expertise-card reveal">
+        <span class="expertise-num">08</span>
+        <h3>Smart Buildings</h3>
+        <p>Integrated technology for efficient, responsive environments.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section section-dark">
+  <div class="container">
+    <div class="section-heading">
+      <span class="kicker">Signature Projects</span>
+      <h2>A Portfolio of Iconic Structures</h2>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <img src="https://images.unsplash.com/photo-1577979749830-f1d742b96791?q=80&w=1600&auto=format&fit=crop" alt="Skyline Tower" />
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <span class="project-location"><i class="fa-solid fa-location-dot"></i> Lahore, Pakistan</span>
+          <h3>Skyline Tower</h3>
+          <div class="project-meta">
+            <span><i class="fa-regular fa-calendar"></i> 2024</span>
+            <span><i class="fa-solid fa-dollar-sign"></i> $120M</span>
+          </div>
+          <a href="#" class="project-link">View Details <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1600&auto=format&fit=crop" alt="Grand Residence" />
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <span class="project-location"><i class="fa-solid fa-location-dot"></i> Islamabad, Pakistan</span>
+          <h3>Grand Residence</h3>
+          <div class="project-meta">
+            <span><i class="fa-regular fa-calendar"></i> 2023</span>
+            <span><i class="fa-solid fa-dollar-sign"></i> $45M</span>
+          </div>
+          <a href="#" class="project-link">View Details <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600&auto=format&fit=crop" alt="Horizon Business Center" />
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <span class="project-location"><i class="fa-solid fa-location-dot"></i> Karachi, Pakistan</span>
+          <h3>Horizon Business Center</h3>
+          <div class="project-meta">
+            <span><i class="fa-regular fa-calendar"></i> 2022</span>
+            <span><i class="fa-solid fa-dollar-sign"></i> $95M</span>
+          </div>
+          <a href="#" class="project-link">View Details <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <img src="https://images.unsplash.com/photo-1555529771-7888783a18d3?q=80&w=1600&auto=format&fit=crop" alt="Infinity Mall" />
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <span class="project-location"><i class="fa-solid fa-location-dot"></i> Dubai, UAE</span>
+          <h3>Infinity Mall</h3>
+          <div class="project-meta">
+            <span><i class="fa-regular fa-calendar"></i> 2023</span>
+            <span><i class="fa-solid fa-dollar-sign"></i> $210M</span>
+          </div>
+          <a href="#" class="project-link">View Details <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=1600&auto=format&fit=crop" alt="Prestige Villas" />
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <span class="project-location"><i class="fa-solid fa-location-dot"></i> Jhang, Pakistan</span>
+          <h3>Prestige Villas</h3>
+          <div class="project-meta">
+            <span><i class="fa-regular fa-calendar"></i> 2021</span>
+            <span><i class="fa-solid fa-dollar-sign"></i> $32M</span>
+          </div>
+          <a href="#" class="project-link">View Details <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1600&auto=format&fit=crop" alt="Metro Urban Development" />
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <span class="project-location"><i class="fa-solid fa-location-dot"></i> Faisalabad, Pakistan</span>
+          <h3>Metro Urban Development</h3>
+          <div class="project-meta">
+            <span><i class="fa-regular fa-calendar"></i> 2025</span>
+            <span><i class="fa-solid fa-dollar-sign"></i> $300M</span>
+          </div>
+          <a href="#" class="project-link">View Details <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Process -->
+<section id="process" class="section section-black">
+  <div class="container container-narrow">
+    <div class="section-heading center">
+      <span class="kicker">How We Work</span>
+      <h2>Our Process</h2>
+    </div>
+
+    <div class="process-list">
+      <div class="process-step reveal">
+        <span class="process-num">01</span>
+        <div>
+          <h3>Discovery &amp; Planning</h3>
+          <p>We immerse ourselves in your vision, site and constraints to define a clear strategic brief.</p>
+        </div>
+      </div>
+      <div class="process-step reveal">
+        <span class="process-num">02</span>
+        <div>
+          <h3>Architecture Design</h3>
+          <p>Concept development into refined architectural form, material and spatial narrative.</p>
+        </div>
+      </div>
+      <div class="process-step reveal">
+        <span class="process-num">03</span>
+        <div>
+          <h3>Engineering &amp; Development</h3>
+          <p>Structural, MEP and technical engineering translate design into buildable reality.</p>
+        </div>
+      </div>
+      <div class="process-step reveal">
+        <span class="process-num">04</span>
+        <div>
+          <h3>Construction Execution</h3>
+          <p>On-site delivery managed with precision, safety and uncompromising quality control.</p>
+        </div>
+      </div>
+      <div class="process-step reveal">
+        <span class="process-num">05</span>
+        <div>
+          <h3>Project Delivery</h3>
+          <p>Final handover with full documentation, commissioning and aftercare support.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-heading center">
+      <span class="kicker">Our Advantage</span>
+      <h2>Why Choose Nexus Build</h2>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <i class="fa-solid fa-award"></i>
+        <h3>Award Winning Designs</h3>
+        <p>Recognised internationally for design excellence and innovation.</p>
+      </div>
+      <div class="why-card reveal">
+        <i class="fa-solid fa-leaf"></i>
+        <h3>Sustainable Construction</h3>
+        <p>Environmentally conscious methods and materials in every project.</p>
+      </div>
+      <div class="why-card reveal">
+        <i class="fa-solid fa-microchip"></i>
+        <h3>Smart Building Technology</h3>
+        <p>Integrated automation for efficiency, comfort and security.</p>
+      </div>
+      <div class="why-card reveal">
+        <i class="fa-solid fa-globe"></i>
+        <h3>Global Quality Standards</h3>
+        <p>Delivery benchmarked against the world's leading practices.</p>
+      </div>
+      <div class="why-card reveal">
+        <i class="fa-solid fa-users"></i>
+        <h3>Experienced Experts</h3>
+        <p>A multidisciplinary team with decades of combined expertise.</p>
+      </div>
+      <div class="why-card reveal">
+        <i class="fa-solid fa-lightbulb"></i>
+        <h3>Innovative Solutions</h3>
+        <p>Forward-thinking approaches to complex architectural challenges.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team -->
+<section id="team" class="section section-black">
+  <div class="container">
+    <div class="section-heading center">
+      <span class="kicker">Meet The Team</span>
+      <h2>The People Behind The Vision</h2>
+    </div>
+
+    <div class="team-grid">
+      <div class="team-card reveal">
+        <div class="team-img">
+          <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop" alt="Ali Hassan" />
+        </div>
+        <h3>Ali Hassan</h3>
+        <span>Founder &amp; CEO</span>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-img">
+          <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=800&auto=format&fit=crop" alt="Sara Khan" />
+        </div>
+        <h3>Sara Khan</h3>
+        <span>Lead Architect</span>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-img">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" alt="Imran Malik" />
+        </div>
+        <h3>Imran Malik</h3>
+        <span>Senior Engineer</span>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-img">
+          <img src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?q=80&w=800&auto=format&fit=crop" alt="Hamza Riaz" />
+        </div>
+        <h3>Hamza Riaz</h3>
+        <span>Project Director</span>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-img">
+          <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop" alt="Ayesha Tariq" />
+        </div>
+        <h3>Ayesha Tariq</h3>
+        <span>Design Consultant</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-heading center">
+      <span class="kicker">Client Voices</span>
+      <h2>Testimonials</h2>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <div class="stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+        <p>"Nexus Build delivered exceptional quality and professionalism. The result exceeded our most ambitious expectations."</p>
+        <div class="testimonial-author">
+          <span class="author-name">Faisal Ahmed</span>
+          <span class="author-role">Property Developer</span>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+        <p>"Outstanding architectural vision and execution from concept to completion. A true partner in every sense."</p>
+        <div class="testimonial-author">
+          <span class="author-name">Meera Sharma</span>
+          <span class="author-role">CEO, Horizon Group</span>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+        <p>"Their team exceeded all expectations, balancing creativity with flawless technical delivery."</p>
+        <div class="testimonial-author">
+          <span class="author-name">Daniel Costa</span>
+          <span class="author-role">Investor</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section class="section section-black">
+  <div class="container">
+    <div class="section-heading center">
+      <span class="kicker">Visual Showcase</span>
+      <h2>Gallery</h2>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item reveal-scale">
+        <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=1200&auto=format&fit=crop" alt="Luxury Villas" />
+        <div class="gallery-overlay"><span>Luxury Villas</span></div>
+      </div>
+      <div class="gallery-item reveal-scale">
+        <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=1200&auto=format&fit=crop" alt="Modern Towers" />
+        <div class="gallery-overlay"><span>Modern Towers</span></div>
+      </div>
+      <div class="gallery-item reveal-scale">
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop" alt="Commercial Buildings" />
+        <div class="gallery-overlay"><span>Commercial Buildings</span></div>
+      </div>
+      <div class="gallery-item reveal-scale">
+        <img src="https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?q=80&w=1200&auto=format&fit=crop" alt="Interior Spaces" />
+        <div class="gallery-overlay"><span>Interior Spaces</span></div>
+      </div>
+      <div class="gallery-item reveal-scale">
+        <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=1200&auto=format&fit=crop" alt="Engineering Projects" />
+        <div class="gallery-overlay"><span>Engineering Projects</span></div>
+      </div>
+      <div class="gallery-item reveal-scale">
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop" alt="Construction Progress" />
+        <div class="gallery-overlay"><span>Construction Progress</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section section-dark">
+  <div class="container contact-grid">
+    <div>
+      <div class="section-heading">
+        <span class="kicker">Get In Touch</span>
+        <h2>Schedule A Consultation</h2>
+      </div>
+      <p class="lead-text">Tell us about your vision and let's explore how Nexus Build Architects can bring it to life.</p>
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <span class="contact-label">Email</span>
+            <a href="mailto:alihassan532732@gmail.com">alihassan532732@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <span class="contact-label">Phone</span>
+            <a href="tel:+923190784209">+92 319 0784209</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <span class="contact-label">Location</span>
+            <span class="contact-text">Jhang, Pakistan</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <form id="contactForm" class="contact-form">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Full Name" required />
+          <input type="email" name="email" placeholder="Email Address" required />
+        </div>
+        <div class="form-row">
+          <input type="tel" name="phone" placeholder="Phone Number" />
+          <select name="projectType">
+            <option value="">Project Type</option>
+            <option value="residential">Residential</option>
+            <option value="commercial">Commercial</option>
+            <option value="urban">Urban Planning</option>
+            <option value="interior">Interior Architecture</option>
+          </select>
+        </div>
+        <select name="budget">
+          <option value="">Estimated Budget</option>
+          <option value="<1M">Under $1M</option>
+          <option value="1-10M">$1M - $10M</option>
+          <option value="10-50M">$10M - $50M</option>
+          <option value="50M+">$50M+</option>
+        </select>
+        <textarea name="message" placeholder="Tell us about your project" rows="5" required></textarea>
+        <button type="submit" class="btn btn-gold btn-full">Send Message</button>
+      </form>
+
+      <div id="formSuccess" class="form-success">
+        <h3>Thank you</h3>
+        <p>Your message has been received. Our team will be in touch shortly.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <span class="logo">NEXUS <span>BUILD</span></span>
+      <p>Designing the future of architecture, construction and engineering — one iconic structure at a time.</p>
+    </div>
+
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#expertise">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Connect</h4>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/alihassanfullstack" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/owner-ali" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:alihassan532732@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>&copy; <span id="year"></span> Nexus Build Architects. All rights reserved.</p>
+    <p>Founded by Ali Hassan &middot; Jhang, Pakistan</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
